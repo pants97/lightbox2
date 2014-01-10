@@ -147,7 +147,7 @@ Licensed under the Creative Commons Attribution 2.5 License - http://creativecom
         }
       }
       $window = $(window);
-      top = $window.scrollTop() + $window.height() / 10;
+      top = $window.scrollTop() + 20;
       left = $window.scrollLeft();
       this.$lightbox.css({
         top: top + 'px',
